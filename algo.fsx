@@ -8,6 +8,7 @@ let rnd = System.Random()
 let x() = rnd.NextDouble() + 1.0
 let y() = rnd.NextDouble() + 2.0
 let z() = rnd.NextDouble() + 3.0
+let b() = rnd.NextDouble() + 4.0
 
 // create array with 1000 element, and each element has 1000000 element
 let data = seq { for i in 1 .. 1000000000 do yield i }
